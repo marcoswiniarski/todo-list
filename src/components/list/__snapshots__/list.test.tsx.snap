@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> Deve bater o render com o snapshot do componente 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  background-color: #576574;
+}
+
+.c1 {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.c2 {
+  padding: 16px;
+}
+
+.c3 {
+  padding: 8px;
+  margin-right: 3px;
+  min-width: 260px;
+}
+
+.c4 {
+  padding: 10px;
+  min-width: 90px;
+  color: #FFF;
+  background-color: #222f3e;
+  border: none;
+  border-radius: 10px;
+}
+
+.c5 {
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.c6 {
+  list-style-type: none;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+<div>
+  <main
+    class="c0"
+  >
+    <h2
+      class="c1"
+    >
+      Todo list
+    </h2>
+    <div
+      class="c2"
+    >
+      <input
+        class="c3"
+        title="Caixa de texto para digitar a descrição da tarefa."
+        type="text"
+        value=""
+      />
+      <button
+        class="c4"
+        title="Botão para adicionar novas tarefas a lista."
+      >
+        Add
+      </button>
+    </div>
+    <span
+      class="c5"
+      title="Contador de quantas tarefas ainda faltam para resolver."
+    >
+      0
+       remaining of 
+      0
+    </span>
+    <ul
+      class="c6"
+    />
+  </main>
+</div>
+`;
