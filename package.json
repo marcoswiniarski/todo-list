@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-nextjs-ts-jest",
-  "version": "0.1.0",
+  "name": "todo-list",
+  "version": "1.0.0",
   "private": true,
-  "description": "Boilerplate configurado para uso com Nextjs, React, Typescript, Jest e Styled Components",
+  "description": "Simples todo-list feito com NextJs, ReactJS, Styled Components e JEST.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
